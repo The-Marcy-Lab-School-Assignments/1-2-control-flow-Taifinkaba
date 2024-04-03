@@ -84,7 +84,7 @@ module.exports = {
   measureRain,
   happyBirthdayPet,
   funTypes,
-  // rounder,
+  rounder,
   fizzBuzzish,
 };
 
