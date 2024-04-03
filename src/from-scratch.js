@@ -32,8 +32,28 @@ const happyBirthdayPet = (breed, age) => {
 };
 // console.log(happyBirthdayPet('cat', 6));
 
-const funTypes = () => {
+const funTypes = (jsType) => {
+  if(typeof jsType == 'string'){
+    return "That's just some text.";
+  }else if(typeof jsType == 'number'){
+    return "That's a good number.";
+  }else if(typeof jsType == 'boolean'){
+    return "To bool, or not to bool?";
+  }else if(typeof jsType == 'undefined'){
+    return "Nothing, but I didn't set that.";
+  }else if(typeof jsType == 'undefined'){
+    return "Nothing, and I didn't set that.";
+  }else if(typeof jsType == 'null'){
+    return "Nothing, and I did set that.";
+  }else if(typeof jsType == 'object'){
+    return "Anybody got the key?";
+  }else if(typeof jsType == 'array'){
+    return "I order you to be indexed.";
+  }else if(typeof jsType == 'NaN'){
+    return "Well, now you're just showing off.";
+  };
 };
+// console.log(funTypes('ying'))
 
 /*
 const rounder = () => {
