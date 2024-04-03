@@ -56,17 +56,27 @@ const funTypes = (jsType) => {
 // console.log(funTypes('ying'))
 
 /*
-const rounder = () => {
-};
-
-const fizzBuzzish = () => {
+const rounder = (float, roundingSetting) => {
 };
 */
+
+
+const fizzBuzzish = (num) => {
+  if(num % 3 == 0 && num % 5 == 0){
+    return "fizzBuzz!";
+  }else if(num % 3 == 0){
+    return "fizz";
+  }else if(num % 5 == 0){
+    return "buzz";
+  };
+};
+console.log(fizzBuzzish(15));
+
 module.exports = {
   measureRain,
   happyBirthdayPet,
-  // funTypes,
+  funTypes,
   // rounder,
-  // fizzBuzzish,
+  fizzBuzzish,
 };
 
