@@ -15,6 +15,10 @@
       "FrScTe3": 0,
       "FrScTe4": 0,
       "FrScTe5": 0
+    },
+    "Modify Tests": {
+      "MoTe1": 0,
+      "MoTe2": 0
     }
   },
   "idToTestNameHash": {
@@ -29,7 +33,9 @@
     "FrScTe2": "From Scratch Tests happyBirthdayPet - logs the right message based on breed and age",
     "FrScTe3": "From Scratch Tests funTypes - logs the right message based on type",
     "FrScTe4": "From Scratch Tests rounder - returns the right number based on rounding setting",
-    "FrScTe5": "From Scratch Tests fizzBuzzish - logs the right message based on the number"
+    "FrScTe5": "From Scratch Tests fizzBuzzish - logs the right message based on the number",
+    "MoTe1": "Modify Tests wildlyBiasedReview - uses a guard clause",
+    "MoTe2": "Modify Tests wildlyBiasedReview - logs the right message based on location"
   },
   "testNameToIdHash": {
     "Debug Tests getRandomIntInRange - returns a random number between min and max": "DeTe1",
@@ -43,11 +49,14 @@
     "From Scratch Tests happyBirthdayPet - logs the right message based on breed and age": "FrScTe2",
     "From Scratch Tests funTypes - logs the right message based on type": "FrScTe3",
     "From Scratch Tests rounder - returns the right number based on rounding setting": "FrScTe4",
-    "From Scratch Tests fizzBuzzish - logs the right message based on the number": "FrScTe5"
+    "From Scratch Tests fizzBuzzish - logs the right message based on the number": "FrScTe5",
+    "Modify Tests wildlyBiasedReview - uses a guard clause": "MoTe1",
+    "Modify Tests wildlyBiasedReview - logs the right message based on location": "MoTe2"
   },
   "humanReadable": {
     "Debug Tests": "0/7",
-    "finalTestScore": "FINAL SCORE: 0/12",
-    "From Scratch Tests": "0/5"
+    "finalTestScore": "FINAL SCORE: 0/14",
+    "From Scratch Tests": "0/5",
+    "Modify Tests": "0/2"
   }
 }

@@ -70,7 +70,7 @@ const fizzBuzzish = (num) => {
     return "buzz";
   };
 };
-console.log(fizzBuzzish(15));
+// console.log(fizzBuzzish(15));
 
 module.exports = {
   measureRain,
