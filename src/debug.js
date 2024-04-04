@@ -44,11 +44,19 @@ const getWeatherReport = (temperature) => {
 };
 
 const returnPositiveNegativeZero = (num) => {
-  return num < 0
-    ? "Positive"
-    : num === 0
-      ? "Zero"
-      : "Negative";
+  if(num < 0){
+    return "Negative";
+  }else if(num === 0){
+    return "Zero";
+  }else  if(num > 0){
+    return "Positive";
+  }
+ 
+  // return num < 0
+  //   ? "Positive"
+  //   : num === 0
+  //     ? "Zero"
+  //     : "Negative";
 };
 
 module.exports = {

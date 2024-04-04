@@ -7,7 +7,7 @@
       "DeTe4": 0,
       "DeTe5": 1,
       "DeTe6": 0,
-      "DeTe7": 0
+      "DeTe7": 1
     },
     "From Scratch Tests": {
       "FrScTe1": 1,
@@ -54,8 +54,8 @@
     "Modify Tests wildlyBiasedReview - logs the right message based on location": "MoTe2"
   },
   "humanReadable": {
-    "Debug Tests": "4/7",
-    "finalTestScore": "FINAL SCORE: 11/14",
+    "Debug Tests": "5/7",
+    "finalTestScore": "FINAL SCORE: 12/14",
     "From Scratch Tests": "5/5",
     "Modify Tests": "2/2"
   }
