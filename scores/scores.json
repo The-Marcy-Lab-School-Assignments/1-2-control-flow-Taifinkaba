@@ -2,7 +2,7 @@
   "testScores": {
     "Debug Tests": {
       "DeTe1": 1,
-      "DeTe2": 0,
+      "DeTe2": 1,
       "DeTe3": 0,
       "DeTe4": 0,
       "DeTe5": 0,
@@ -54,8 +54,8 @@
     "Modify Tests wildlyBiasedReview - logs the right message based on location": "MoTe2"
   },
   "humanReadable": {
-    "Debug Tests": "1/7",
-    "finalTestScore": "FINAL SCORE: 8/14",
+    "Debug Tests": "2/7",
+    "finalTestScore": "FINAL SCORE: 9/14",
     "From Scratch Tests": "5/5",
     "Modify Tests": "2/2"
   }
