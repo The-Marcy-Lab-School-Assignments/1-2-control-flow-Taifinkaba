@@ -41,7 +41,7 @@ const funTypes = (jsType) => {
   console.log("To bool, or not to bool?");
   }else if(typeof jsType == 'undefined'){
   console.log("Nothing, but I didn't set that.");
-  }else if(typeof jsType == 'null'){
+  }else if(jsType === null){
   console.log("Nothing, and I did set that.");
   }else if(typeof jsType == 'object'){
   console.log("Anybody got the key?");
