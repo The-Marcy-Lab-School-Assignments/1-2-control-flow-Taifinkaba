@@ -12,7 +12,6 @@ const measureRain = (inches) => {
   };
 };
 
-
 const happyBirthdayPet = (breed, age) => {
   if(breed === 'snake'){
     console.log('Hiss hiss!');
@@ -72,7 +71,6 @@ const funTypes = (jsType) => {
 // funTypes([]);
 // funTypes(NaN);
 
-
 const rounder = (float, roundingSetting) => {
   if(roundingSetting == 'up' ) {
     return Math.ceil(float);
@@ -86,8 +84,6 @@ const rounder = (float, roundingSetting) => {
 // console.log(rounder(3.4, 'down'));
 // console.log(rounder(3.4, 'honest'));
 
-
-
 const fizzBuzzish = (num) => {
   if(num % 3 === 0 && num % 5 === 0){
     console.log("fizzBuzz!");
@@ -100,8 +96,6 @@ const fizzBuzzish = (num) => {
   }
 };
 // console.log(fizzBuzzish(15));
-
-
 
 module.exports = {
   measureRain,

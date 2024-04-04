@@ -6,6 +6,7 @@ const wildlyBiasedReview = (location) => {
   } else {
     console.log('Yea that place is cool I guess');
   }
+  return "where you tryna go."
 };
 
 module.exports = {
