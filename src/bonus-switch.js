@@ -25,7 +25,7 @@ const measureRainSwitch = (inches) => {
 // measureRainSwitch(5);
 // measureRainSwitch(6);
 // measureRainSwitch(7);
-// measureRainSwitch(9);
+
 
 
 // const measureRain = (inches) => {
@@ -42,8 +42,34 @@ const measureRainSwitch = (inches) => {
 //   };
 // };
 
-const rounderSwitch = () => {
+const rounderSwitch = (float, roundingSetting) => {
+  switch(roundingSetting){
+    case 'up':
+      return Math.ceil(float);
+      break;
+    case 'down':
+      return Math.floor(float)
+      break;
+    case 'honest':
+      return Math.round(float);
+    break;
+    default:
+      return 'Something went wrong?';
+  }
 };
+// console.log(rounderSwitch(1.2, 'up'));
+// console.log(rounderSwitch(2.8, 'down'));
+// console.log(rounderSwitch(3.5, 'honest'));
+
+// const rounder = (float, roundingSetting) => {
+//   if(roundingSetting == 'up' ) {
+//     return Math.ceil(float);
+//   }else if(roundingSetting == 'down'){
+//     return Math.floor(float);
+//   }else if(roundingSetting == 'honest'){
+//     return Math.round(float);
+//   };
+// };
 
 module.exports = {
   measureRainSwitch,
