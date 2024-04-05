@@ -1,10 +1,9 @@
 const measureRainSwitch = (inches) => {
   switch(true){
     
-    case inches === 1:
+    case inches <= 1:
       console.log('drought');
       break;
-
     case inches <= 2:
       console.log('dry');
       break;
@@ -14,12 +13,20 @@ const measureRainSwitch = (inches) => {
     case inches <= 6:
       console.log('rainy');
       break;
-
     default:
     console.log('flood');
   };
 };
+// measureRainSwitch(0);
+// measureRainSwitch(1);
+// measureRainSwitch(2);
 // measureRainSwitch(3);
+// measureRainSwitch(4);
+// measureRainSwitch(5);
+// measureRainSwitch(6);
+// measureRainSwitch(7);
+// measureRainSwitch(9);
+
 
 // const measureRain = (inches) => {
 //   if(inches === 0){
