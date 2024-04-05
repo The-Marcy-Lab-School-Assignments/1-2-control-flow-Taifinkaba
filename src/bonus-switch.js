@@ -1,6 +1,5 @@
 const measureRainSwitch = (inches) => {
   switch(true){
-    
     case inches <= 1:
       console.log('drought');
       break;
