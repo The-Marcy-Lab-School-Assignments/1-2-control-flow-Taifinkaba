@@ -1,3 +1,4 @@
+/** FEEDBACK: You are so close! The tests in this one is not the same as the other so you needed to change the conditions a bit to match the number! */
 const measureRainSwitch = (inches) => {
   switch(true){
     case inches <= 1:

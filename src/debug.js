@@ -24,7 +24,7 @@ const funkoPopAddictionLevel = (numOfFunkoPops) => {
     console.log('You need an intervention!!!');
   }
 };
-
+/** FEEDBACK: You are returning weather report however is weather report a variable we can access from where that return is? */
 const getWeatherReport = (temperature) => {
   if (temperature > 90) {
     weatherReport = "It's hot and gross out.";
@@ -42,7 +42,7 @@ const getWeatherReport = (temperature) => {
   console.log("And that's your report!");
   return weatherReport;
 };
-
+/** FEEDBACK: The code was correct, the tests were reading the extra ? marks, which is why we do not leave commented out code!!!! So make it a habit to clean up your file before submitting! Also you have an extra space between else and if so make sure to keep your code consistent! */
 const returnPositiveNegativeZero = (num) => {
   if(num < 0){
     return "Negative";
@@ -51,12 +51,6 @@ const returnPositiveNegativeZero = (num) => {
   }else  if(num > 0){
     return "Positive";
   }
- 
-  // return num < 0
-  //   ? "Positive"
-  //   : num === 0
-  //     ? "Zero"
-  //     : "Negative";
 };
 
 module.exports = {
