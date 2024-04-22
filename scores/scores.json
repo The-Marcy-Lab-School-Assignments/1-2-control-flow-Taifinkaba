@@ -4,7 +4,7 @@
       "DeTe1": 1,
       "DeTe2": 1,
       "DeTe3": 1,
-      "DeTe4": 0,
+      "DeTe4": 1,
       "DeTe5": 1,
       "DeTe6": 1,
       "DeTe7": 1
@@ -54,8 +54,8 @@
     "Modify Tests wildlyBiasedReview - logs the right message based on location": "MoTe2"
   },
   "humanReadable": {
-    "Debug Tests": "6/7",
-    "finalTestScore": "FINAL SCORE: 13/14",
+    "Debug Tests": "7/7",
+    "finalTestScore": "FINAL SCORE: 14/14",
     "From Scratch Tests": "5/5",
     "Modify Tests": "2/2"
   }
